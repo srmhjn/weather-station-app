@@ -1,4 +1,4 @@
-import { httpStatusCode } from "./config";
+import { httpStatusCode } from "./config.js";
 
 export default class AppError extends Error {
     message = "";

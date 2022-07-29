@@ -1,4 +1,4 @@
-import { getFilteredStations } from './controller/stationsController';
+import { getFilteredStations } from './controller/stationsController.js';
 
 import express from 'express';
 const router = express.Router();

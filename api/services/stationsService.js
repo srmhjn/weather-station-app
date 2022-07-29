@@ -1,5 +1,5 @@
-import { fetchData } from '../util';
-import { apiConfig, TEMP_THRESHOLD } from '../../resources/config';
+import { fetchData } from '../util.js';
+import { apiConfig, TEMP_THRESHOLD } from '../../resources/config.js';
 
 export const getFilteredStationsService = async () => {
 	try {

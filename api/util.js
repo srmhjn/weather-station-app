@@ -1,6 +1,6 @@
 import axios from 'axios';
-import AppError from '../resources/AppError';
-import { httpStatusCode, messages } from '../resources/config';
+import AppError from '../resources/AppError.js';
+import { httpStatusCode, messages } from '../resources/config.js';
 export const respondWithResult = function (data, res) {
 	let message = messages.SUCCESS;
 	let statusCode = httpStatusCode.SUCCESS;
