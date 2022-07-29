@@ -13,7 +13,7 @@ export const respondWithResult = function (data, res) {
 export const respondWithError = function (res, error) {
 	let message = error.message || messages.UNKNOWN_ERROR;
 	let statusCode = error.statusCode || httpStatusCode.INTERNAL_SERVER_ERROR;
-	res.status(statusCode).send({ message });
+	res.status(statusCode).send({ error: message });
 };
 
 export const fetchData = async (url) => {
