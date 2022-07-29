@@ -1,4 +1,4 @@
-import stations from '../api';
+import stations from '../api/index.js';
 import express from 'express';
 
 export function initRoutes(app) {

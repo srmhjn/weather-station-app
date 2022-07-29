@@ -1,4 +1,4 @@
-const axios = require('axios');
+import axios from 'axios';
 import AppError from '../resources/AppError';
 import { httpStatusCode, messages } from '../resources/config';
 export const respondWithResult = function (data, res) {

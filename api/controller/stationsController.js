@@ -1,5 +1,5 @@
-import { getFilteredStationsService } from '../services/stationsService';
-import { respondWithResult, respondWithError } from '../util';
+import { getFilteredStationsService } from '../services/stationsService.js';
+import { respondWithResult, respondWithError } from '../util.js';
 
 export const getFilteredStations = async (req, res) => {
 	try {

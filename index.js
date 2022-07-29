@@ -1,6 +1,6 @@
-import { WEATHER_APP_PORT } from './resources/config';
+import { WEATHER_APP_PORT } from './resources/config.js';
 import express from 'express';
-import { initRoutes } from './startup/routes';
+import { initRoutes } from './startup/routes.js';
 
 const app = express();
 initRoutes(app);
