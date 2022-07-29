@@ -1,0 +1,25 @@
+{
+  "name": "weather-station-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-watch index.js",
+    "build": "npm rm && babel ./ --out-dir build --ignore node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-watch": "^7.0.0"
+  },
+  "description": ""
+}
