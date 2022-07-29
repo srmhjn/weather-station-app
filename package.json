@@ -6,6 +6,10 @@
     "start": "babel-watch index.js",
     "build": "npm rm && babel ./ --out-dir build --ignore node_modules"
   },
+  "engines" : { 
+    "npm" : ">=6.14.15",
+    "node" : ">=14.17.6"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
