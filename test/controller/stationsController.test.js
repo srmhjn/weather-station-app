@@ -1,7 +1,7 @@
-import getFilteredStations from '../../controller/stationsController.js';
-import getFilteredStationsServiceMock from '../mocks/serviceMock.js';
-import messages from '../../../resources/config.js';
-import servicemodule from '../../services/stationsService.js';
+import { getFilteredStations } from '../../api/controller/stationsController.js';
+import { getFilteredStationsServiceMock } from '../../test/mocks/serviceMock.js';
+import { messages } from '../../resources/config.js';
+import { servicemodule } from '../../api/services/stationsService.js';
 
 let expressMock = null;
 
