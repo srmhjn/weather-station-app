@@ -1,0 +1,12 @@
+Apache Kafka – 
+Kafka is a messaging system used for sending and listening event using a publish subscribe model.
+It is highly scalable and reliable. It is used for data or information communication between components of an application or systems
+If you want to send some data or message to a component of an application and it should be run time where once you send some message, component should read it automatically without waiting. Kafka is best fit for that.
+
+Terminologies: 
+The basic architecture of has below listed components: 
+•	Topics – A unique key of communication between producer and consumer
+•	Producers – Sends messages to consumer using topic
+•	Consumers – Reads messages send by producer using topic on which it is sent.
+•	Brokers – Nodes where all the Kafka requests are called.
+All messages you send to a component are send using a topic and all messages you read from components are also fetched using a topic.
