@@ -1,4 +1,4 @@
-import { messages } from "../../../../resources/config";
+import { messages } from "../../resources/config";
 
 export const getFilteredStationsServiceMock = async function() {
 	return {
